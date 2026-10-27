@@ -1,0 +1,13 @@
+{
+  "name": "automation-samples",
+  "private": true,
+  "type": "module",
+  "description": "Production excerpts from Rita Ndubi's own platforms: Cloudflare Workers, D1, payment webhooks, AI document analysis, Zoho integrations.",
+  "scripts": {
+    "check": "node 01-payment-webhook/webhook.selfcheck.mjs && node 04-form-intake-crm/intake.selfcheck.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "*",
+    "zod": "^3.23.0"
+  }
+}
